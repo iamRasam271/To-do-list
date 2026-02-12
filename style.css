@@ -1,0 +1,72 @@
+*{
+  margin:0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#main{
+  background-color: white;
+  padding:20px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+#main h3{
+  margin-left:30%;
+  font-size:large;
+}
+#inpt{
+  width: 85%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius:6px;
+  border: 1px solid #ccc;
+  font-size:14px;
+}
+#btn{
+  font-size:20px;
+  height:36px;
+  width: 50px;
+  border:none;
+  border-radius:6px;
+  color:white;
+  background-color: black;
+  cursor:pointer;
+  text-align: center;
+}
+#btn:hover{
+  background-color:#0f172a;
+}
+#tasklist{
+margin-top:20px;
+list-style: none;
+padding: 0;
+}
+#tasklist li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f5f9;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+   gap:10px;
+}
+#tasklist li span{
+  flex:1;
+  word-break: break-word;
+}
+#tasklist button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+}
